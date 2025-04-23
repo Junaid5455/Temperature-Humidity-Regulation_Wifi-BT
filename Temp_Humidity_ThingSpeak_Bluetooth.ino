@@ -8,10 +8,10 @@
 SoftwareSerial serial (0,1);
 unsigned long previousMillis = 0;
  
-String apiKey = "7U6I3TRHO3GTUBQP";     //  Enter your Write API key from ThingSpeak
+String apiKey = "[Write here your thingspeak api key]";     //  Enter your Write API key from ThingSpeak
  
-const char *ssid =  "Tenda_BC78";     // replace with your wifi ssid and wpa2 key
-const char *pass =  "zigron@123";
+const char *ssid =  "[Write here your Wi-Fi name]";     // Write your wifi ssid and wpa2 key
+const char *pass =  "[Write your Wi-Fi Password]";
 const char* server = "api.thingspeak.com";
  
 #define DHTPIN 0 //pin where the dht11 is connected    
